@@ -113,7 +113,7 @@ dotenv.load_dotenv()
 
 # Agent 1: Quick Company Description
 description_agent = Agent(
-    model=OpenAIChat(id="gpt-4o"),
+    model=OpenAIChat(id="gpt-4.1"),
     instructions=dedent("""\
         You are a knowledgeable financial researcher. Provide a concise and professional
         one-paragraph description of the company based on its stock ticker or name.
